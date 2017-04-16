@@ -1,3 +1,4 @@
+# copied from https://pythonworld.ru/gui/pyqt5-painting.html
 # pip3 install PyQt5
 
 import sys
