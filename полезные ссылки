@@ -1,4 +1,6 @@
 
+# ---------------------python-------------------------
+
 Курс и задачки по python https://stepik.org/course/67/syllabus
     - код 2-ой недели stepik - https://stepic.org/media/attachments/course67/week_2.html
     - код 3-ей недели stepikhttps://stepic.org/media/attachments/course67/week_3.html 
@@ -15,7 +17,7 @@ https://www.gitbook.com/book/lancelote/intermediate-python/details
 Базы данных в Python (SQL) -
 https://python-scripts.com/database
 
-# ----------------------------------------------
+# ---------------------pandas-------------------------
 
 Курс по введению в pandas -
 https://khashtamov.com/ru/pandas-introduction/
@@ -32,13 +34,16 @@ https://habrahabr.ru/company/ods/blog/322626/
 Методы Pandas для работы со столбцами -
 http://pythonr.blogspot.fr/2015/04/pandas_15.html
 
-#--------------------------------------------------
+#-------------------Web-программирование-------------------------------
 
 Простым языком об HTTP -
 https://habrahabr.ru/post/215117/
 
 GET and POST requests using Python (HTTP) -
 http://www.geeksforgeeks.org/get-post-requests-using-python/
+
+What does request.method ==“POST” mean in Django? -
+https://stackoverflow.com/questions/19132210/what-does-request-method-post-mean-in-django
 
 Web-программирование: Django -
 https://www.ibm.com/developerworks/ru/library/l-python_part_11/index.html
