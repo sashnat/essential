@@ -28,11 +28,16 @@ https://wombat.org.ua/AByteOfPython/object_oriented_programming.html
 Python. Введение в объектно-ориентированное программирование (!!) -
 http://younglinux.info/oopython.php
 
+#-----------------------parsing-------------------------------
+
 HTML парсер на Python (parser) -
 http://pythonicway.com/python-examples/python-terminal-examples/20-python-html-parser
 
 Пишем парсер web-caйта [Python/Практика]
 https://www.youtube.com/watch?v=KPXPr-KS-qk
+
+Парсер HTML страниц на Python
+http://python-3.ru/page/parser-html-python
 
 # ---------------------pandas-------------------------
 
