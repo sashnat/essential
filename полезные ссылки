@@ -25,13 +25,19 @@ https://wombat.org.ua/AByteOfPython/object_oriented_programming.html
 Python. Введение в объектно-ориентированное программирование (!!) -
 http://younglinux.info/oopython.php
 
-#-------------------------SQL---------------------------------
+#-------------------------SQL(MySQL)---------------------------------
 
 Python для Начинающих - Работа с Базами Данных SQL Server
 https://www.youtube.com/watch?v=C2TrKgd7sME
 
 Базы данных в Python (SQL) -
 https://python-scripts.com/database
+
+MySQL консоль: 35 основных команд
+http://cccp-blog.com/razrabotchiku/mysql-komandnaya-stroka
+
+Установка mysql сервера 5.5 (windows 10)
+http://www.shark-media.ru/index.php/ru/pomoshch/manualy/31-programma-servicemy/245-ustanovka-mysql-servera-5-5-windows-10
 
 #-----------------------parsing-------------------------------
 
