@@ -1,5 +1,10 @@
 # coded by Nataliya Sashnikova
 # Расчет рулонов обоев
+
+import math
+from functools import reduce
+
+
 def s():
     a = float(input('высота участка: '))
     b = float(input('ширина участка: '))
@@ -10,22 +15,21 @@ def s():
     p = z*math.floor(x/a)-math.ceil(b/y)
     print ("в резерве полос: ", p)
     q.append(z)
-    spare.append(p)
+    spare.append(p*a)
     return z
 
 
-import math
-from functools import reduce
 q = []
 spare = []
 x = float(input('высота (длина) рулона: '))
 y = float(input('ширина рулона: '))
-print(s(), "рулонов 1я площадь")
-print(s(), "рулонов 2я площадь")
-print(s(), "рулонов 3я площадь")
-print(s(), "рулонов 4я площадь")
-print(s(), "рулонов 5я площадь")
+print(s(), "рулонов - 1я площадь--------------")
+print(s(), "рулонов - 2я площадь--------------")
+print(s(), "рулонов - 3я площадь--------------")
+print(s(), "рулонов - 4я площадь--------------")
+print(s(), "рулонов - 5я площадь--------------")
 
 print(q)
 print(spare)
-print(reduce((lambda x, y: x + y), q))
+print("всего рулонов, шт.: ", reduce((lambda x, y: x + y), q))
+print("всего резерв, м: ", reduce((lambda x, y: x + y), spare))
