@@ -24,3 +24,14 @@ def hello1():
 
 wer = makebold(hello1)
 print (wer())          # выведет <b>hello habr</b>
+
+'''
+def поведение(x):
+   def механизм:
+     .....
+    return механизм
+
+def функция:
+
+результат = поведение(функция)
+'''
