@@ -22,3 +22,10 @@ for d, dirs, files in os.walk('Z:\Python'):
         path = os.path.join(d,f) # формирование адреса
         path_f.append(path) # добавление адреса в список
 print(path_f )
+
+
+# получить полный путь для каждого файла с новой строки
+print('\n'.join(i for i in path_f))
+#it's another way to get the same result
+for i in path_f:
+    print(i, end='\n')
