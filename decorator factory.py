@@ -11,6 +11,34 @@ def timed(fn):
         return result
     return decorated'''
 
+''' 
+https://stackoverflow.com/questions/49376371/python-decorators-args-and-kwargs
+#import functools, logging
+
+def tracing(func):
+    @functools.wraps
+    def wrapper(*args, **kwargs):
+        logging.debug(f'Calling {func.__name__}')
+        try:
+            return func(*args, **kwargs)
+        finally:
+            logging.debug(f'Called {func.__name__}')
+    return wrapper
+
+@tracing
+def spam():
+    print('spam')
+
+@tracing
+def add3(n):
+    return n+3
+    
+the reason we need to take *args, **kwargs is so that we can pass that same *args, **kwargs on to the wrapped function.
+This is called "forwarding", or "perfect forwarding". The idea is that "tracing" doesn't have to know anything about 
+the function it's wrapping—it could take any set of positional and keyword arguments, and return anything, and the wrapper still works'''
+
+
+
 def repeat(times):
     """ повторить вызов times раз, и вернуть среднее значение """
     def decorator(fn):
