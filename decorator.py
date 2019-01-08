@@ -10,6 +10,8 @@ def makeitalic(fn):
         return "<i>" + fn() + "</i>"
     return wrapped
 
+
+# --------с помощью декоратора-------------------
 @makebold
 @makeitalic
 def hello():
@@ -17,8 +19,8 @@ def hello():
 
 print (hello()) ## выведет <b><i>hello habr</i></b>
 
-# --------без декоратора-------------------
 
+# --------без декоратора-------------------
 def hello1():
     return "hello habr"
 
