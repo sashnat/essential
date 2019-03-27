@@ -59,16 +59,7 @@ http://cccp-blog.com/razrabotchiku/mysql-komandnaya-stroka
 Установка mysql сервера 5.5 (windows 10)
 http://www.shark-media.ru/index.php/ru/pomoshch/manualy/31-programma-servicemy/245-ustanovka-mysql-servera-5-5-windows-10
 
-#-----------------------parsing-------------------------------
 
-HTML парсер на Python (parser) -
-http://pythonicway.com/python-examples/python-terminal-examples/20-python-html-parser
-
-Пишем парсер web-caйта [Python/Практика]
-https://www.youtube.com/watch?v=KPXPr-KS-qk
-
-Парсер HTML страниц на Python
-http://python-3.ru/page/parser-html-python
 
 # ---------------------pandas-------------------------
 
@@ -98,6 +89,19 @@ https://towardsdatascience.com/building-a-logistic-regression-in-python-step-by-
 
 Working with DataFrames
 http://www.gregreda.com/2013/10/26/working-with-pandas-dataframes/
+
+#-----------------------parsing-------------------------------
+Web Scraping с помощью python
+https://habr.com/ru/post/280238/
+
+HTML парсер на Python (parser) -
+http://pythonicway.com/python-examples/python-terminal-examples/20-python-html-parser
+
+Пишем парсер web-caйта [Python/Практика]
+https://www.youtube.com/watch?v=KPXPr-KS-qk
+
+Парсер HTML страниц на Python
+http://python-3.ru/page/parser-html-python
 
 #-------------------Web-программирование-------------------------------
 Я хочу стянуть информацию с сайта. Как это сделать?
