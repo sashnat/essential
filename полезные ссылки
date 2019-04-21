@@ -51,6 +51,10 @@ Python. Введение в объектно-ориентированное пр
 http://younglinux.info/oopython.php
 
 #-------------------------SQL(MySQL)---------------------------------
+
+О том, как загрузить базу MySQL и остаться невредимым
+https://webformyself.com/o-tom-kak-zagruzit-bazu-mysql-i-ostatsya-nevredimym/
+
 Практическое владение языком SQL
 http://sql-ex.ru/?Lang=0
 
@@ -101,6 +105,7 @@ Working with DataFrames
 http://www.gregreda.com/2013/10/26/working-with-pandas-dataframes/
 
 #-----------------------parsing-------------------------------
+
 Парсинг сайтов на Python: подробный видеокурс и программный код
 https://proglib.io/p/parsing-course/
 
