@@ -156,3 +156,6 @@ https://djbook.ru/rel1.9/topics/http/views.html
 Модели
 Создание моделей и миграции базы данных
 https://metanit.com/python/django/5.1.php
+
+Что такое токен CSRF? Каково его значение и как оно работает?
+http://qaru.site/questions/22201/what-is-a-csrf-token-what-is-its-importance-and-how-does-it-work
