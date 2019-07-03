@@ -50,7 +50,7 @@ https://wombat.org.ua/AByteOfPython/object_oriented_programming.html
 Python. Введение в объектно-ориентированное программирование (!!) -
 http://younglinux.info/oopython.php
 
-#-------------------------SQL(MySQL)---------------------------------
+#-------------------------SQL(SQLite)(MySQL)---------------------------------
 
 О том, как загрузить базу MySQL и остаться невредимым
 https://webformyself.com/o-tom-kak-zagruzit-bazu-mysql-i-ostatsya-nevredimym/
@@ -73,7 +73,8 @@ http://cccp-blog.com/razrabotchiku/mysql-komandnaya-stroka
 Установка mysql сервера 5.5 (windows 10)
 http://www.shark-media.ru/index.php/ru/pomoshch/manualy/31-programma-servicemy/245-ustanovka-mysql-servera-5-5-windows-10
 
-
+Выборка данных из базы SQLite с помощью Python (my note - 03.07.2019)
+https://younglinux.info/python/feature/sqlite
 
 # ---------------------pandas-------------------------
 
