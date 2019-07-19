@@ -1,0 +1,28 @@
+https://djbook.ru/rel1.9/ref/models/options.html
+Объекты модели будут отсортированы относительно указанного поля. 
+Почти всегда используется для ForeignKey. 
+Можно использовать для сортировки связанных объектов по значению из родительского объекта. 
+Например, модель Answer``(ответ) связана с моделью ``Question``(вопрос) через ``ForeignKey, 
+вопрос содержит несколько ответов и порядок этих ответов имеет значение:
+
+from django.db import models
+
+class Question(models.Model):
+    text = models.TextField()
+    # ...
+
+class Answer(models.Model):
+    question = models.ForeignKey(Question, on_delete=models.CASCADE)
+    # ...
+
+    class Meta:
+        order_with_respect_to = 'question'
+        
+При добавлении order_with_respect_to, будет добавлено два дополнительных метода для получения 
+и установки порядка связанных объектов: get_RELATED_order() и set_RELATED_order(), 
+где RELATED название модели в нижнем регистре. Например, предполагая что объект Question имеет несколько связанных объектов Answer, 
+возвращенный список будет содержать значения первичного ключа объектов Answer:
+
+>>> question = Question.objects.get(id=1)
+>>> question.get_answer_order()
+[1, 2, 3]
