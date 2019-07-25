@@ -166,3 +166,6 @@ https://www.diffen.com/difference/GET-vs-POST-HTTP-Requests
 
 Mastering Django 2: Table of Contents
 https://djangobook.com
+
+Integrating Django with a legacy database
+https://docs.djangoproject.com/en/1.9/howto/legacy-databases/
